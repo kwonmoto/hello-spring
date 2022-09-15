@@ -1,0 +1,28 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.2'
+	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+	id 'java'
+}
+
+group = 'hello'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+//
+repositories {
+	// "라이브러리를 mavenCentral 에서 다운 받을 것입니다." 라고 명시해주는 곳
+	mavenCentral()
+}
+
+//
+dependencies {
+	// 처음 spring starter 에서 선택했던 라이브러리 thymeleaf, spring web
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// jUnit 5
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
