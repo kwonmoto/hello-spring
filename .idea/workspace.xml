@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd2e9107-9b9c-4347-863f-37dfa1aad6e3" name="Changes" comment="spring의 api 통신 방식 이해">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hellospring/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/controller/HelloController.class" afterDir="false" />
+    <list default="true" id="dd2e9107-9b9c-4347-863f-37dfa1aad6e3" name="Changes" comment="예제의 회원 리포지토리 개발 및 테스트 케이스 작성">
+      <change afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/controller/HelloController$Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/domain/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/repository/MemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/hello/hellospring/repository/MemoryMemberRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/resources/templates/hello-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/hello/hellospring/HelloSpringApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/hello/hellospring/repository/MemoryMemberRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hellospring/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663425938316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="예제의 회원 리포지토리 개발 및 테스트 케이스 작성">
+      <created>1663774072566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663774072566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +241,7 @@
     </ignored-roots>
     <MESSAGE value="first commit" />
     <MESSAGE value="spring의 api 통신 방식 이해" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring의 api 통신 방식 이해" />
+    <MESSAGE value="예제의 회원 리포지토리 개발 및 테스트 케이스 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="예제의 회원 리포지토리 개발 및 테스트 케이스 작성" />
   </component>
 </project>
